@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarWash</title>
+
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
+
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  
+  
+</head>
+
+<body>
+  <nav class="navbar d-none d-lg-block d-lg-flex justify-content-lg-between topbar navbar-expand-lg bg-light navbar-light">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a href="#" class="nav-link mr-3"><i class="fa-regular fa-location-dot"></i> Find Nearest Location</a></li>
+      <li class="nav-item"><a href="#" class="nav-link mr-3"><i class="fa-regular fa-phone mr-2"></i>Call Us: 1-800-123-4567</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-regular fa-clock mr-2"></i>Mon-Sat: 7:00am-6:00pm/Sun: 8:00am-5:00pm</a></li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">News & Media</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">  <i class="fa-regular fa-facebook"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-regular fa-facebook"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-regular fa-facebook"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fa-regular fa-facebook "></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <a class="navbar-brand ml-4" href="#">
+        <img src="assets/img/logo.png" alt="logo" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars-staggered text-secondary"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services & Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Unlimited Wash Club</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="#">
+              <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+              <img src="assets/img/icons/magnifying-glass-solid.svg" width="15px" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <div class="hero_section pb-5">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid" src="assets/img/demo.jpg" alt="First slide">
+          <div class="carousel-content">
+            <div class="bg-span">
+              <h5> Starting at just $35</h5>
+            </div>
+            <h2>Unlimited <br> Membership Plan!</h2>
+            <button class="btn main-btn">SEE ALL PLANS</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="assets/img/demo.jpg" alt="Second slide">
+          <div class="carousel-content">
+            <div class="bg-span">
+              <h5> Starting at just $35</h5>
+            </div>
+            <h2>Unlimited <br> Membership Plan!</h2>
+            <button class="main-btn">SEE ALL PLANS</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="assets/img/demo.jpg" alt="Third slide">
+          <div class="carousel-content">
+            <div class="bg-span">
+              <h5> Starting at just $35</h5>
+            </div>
+            <h2>Unlimited <br> Membership Plan!</h2>
+            <button class="main-btn">SEE ALL PLANS</button>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <section id="services" class="pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 col-xl-4 col-md-6 card-column">
+          <div class="card">
+            <img class="card-img" src="assets/img/demo.jpg" class="img-fluid" alt="">
+            <div class="card-overlay text-center">
+              <h5 class="card-title">Express Exterior</h5>
+              <div class="card-overlay-bottom mt-3 mb-2">
+                <button class="btn default-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-md-6 card-column">
+          <div class="card">
+            <img class="card-img" src="assets/img/demo.jpg" class="img-fluid" alt="">
+            <div class="card-overlay text-center">
+              <h5 class="card-title">Express Exterior</h5>
+              <div class="card-overlay-bottom mt-3 mb-2">
+                <button class="btn default-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-md-6 card-column">
+          <div class="card">
+            <img class="card-img" src="assets/img/demo.jpg" class="img-fluid" alt="">
+            <div class="card-overlay text-center">
+              <h5 class="card-title">Express Exterior</h5>
+              <div class="card-overlay-bottom mt-3 mb-2">
+                <button class="btn default-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-md-6 card-column">
+          <div class="card">
+            <img class="card-img" src="assets/img/demo.jpg" class="img-fluid" alt="">
+            <div class="card-overlay text-center">
+              <h5 class="card-title">Express Exterior</h5>
+              <div class="card-overlay-bottom mt-3 mb-2">
+                <button class="btn default-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-md-6 card-column">
+          <div class="card">
+            <img class="card-img" src="assets/img/demo.jpg" class="img-fluid" alt="">
+            <div class="card-overlay text-center">
+              <h5 class="card-title">Express Exterior</h5>
+              <div class="card-overlay-bottom mt-3 mb-2">
+                <button class="btn default-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-md-6 card-column">
+          <div class="card">
+            <img class="card-img" src="assets/img/demo.jpg" class="img-fluid" alt="">
+            <div class="card-overlay text-center">
+              <h5 class="card-title">Express Exterior</h5>
+              <div class="card-overlay-bottom mt-3 mb-2">
+                <button class="btn default-btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="help-section" class="pt-5 pb-5 text-white">
+    <div class="container">
+      <div class="row p-5 text-center">
+        <div class="col-12">
+          <h2>Do you need help with your vehicle?</h2>
+        </div>
+        <div class="col-12">
+          <p class="text-white-70 mt-2">Send us a message, or phone 1-800 123 4567 between 09:00 and 18:00 Monday to
+            Saturday.</p>
+        </div>
+        <div class="col-12">
+          <button class="btn main-btn mt-4">BOOK APPOINTMENT</button>
+          <button class="btn default-btn ml-lg-3 mt-4">REQUEST A CALL BACK</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 h-100">
+          <h2>Our Mission, Vision, Values.</h2>
+          <div class="container">
+            
+<div class="demo">
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i> First Tab</button>
+        </h2>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>First Tab Content</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i> Our Mission, Vision, Values.</button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Second Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus maxime expedita tempore id ipsam minima dolorem, necessitatibus dignissimos tenetur nihil ipsum excepturi numquam sed eum nostrum impedit officia quas. Eveniet! Tab Content</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"><i class="fa fa-plus"></i> Third Tab</button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Third Tab Content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 row w-100 no-gutters">
+          <div class="col-12 col-lg-6 row no-gutters h-lg-100 w-50">
+            <div class="col-12 h-50">
+              <img src="assets/img/demo.jpg" class="img-fluid h-100 w-100" alt="">
+            </div>
+            <div class="col-12 h-50 w-50 pt-lg-2">
+              <img src="assets/img/demo.jpg" class="img-fluid h-100 w-100" alt="">
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6 col-xl-6 pl-2">
+            <img src="assets/img/demo.jpg" class="img-fluid h-100" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="pricing" class="pt-5 mt-5 pb-5 mb-5">
+    <div class="container">
+      <div class="mb-4 text-center">
+        <h3 class="headline font-weight-bold">Unlimited Wash Plans</h3>
+        <p>Wash whenever you want and enjoy the ease of auto monthly billing.</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 col-md-6 col-xl-3 mt-5">
+          <div class="card pricing-card">
+            <div class="card-header text-center font-weight-bold">
+              Ultimate Shine
+            </div>
+            <div class="card-body text-center border-bottom mb-4">
+              <h4><span class="sup">$</span>24<span class="sup">99</span></h4>
+              <span class="text-gray">Per month (include tax)</span>
+            </div>
+            <ul>
+              <li>Soft-cloth Wash</li>
+              <li>Spot-free RInse</li>
+              <li>Spot-free Thermal dry</li>
+              <li>Rain shield</li>
+            </ul>
+            <div class="card-footer border-top-0 bg-transparent">
+
+              <div class="button-div text-center"> <button class="button">JOIN NOW</button></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-xl-3 mt-5">
+          <div class="card pricing-card">
+            <div class="card-header text-center font-weight-bold">
+              Ultimate Shine
+            </div>
+            <div class="card-body text-center border-bottom mb-4">
+              <h4><span class="sup">$</span>32<span class="sup">99</span></h4>
+              <span class="text-gray">Per month (include tax)</span>
+            </div>
+            <ul>
+              <li>Soft-cloth Wash</li>
+              <li>Spot-free RInse</li>
+              <li>Spot-free Thermal dry</li>
+              <li>Rain shield</li>
+              <li>Undercarriage Flush & Brake Dust Remover</li>
+              <li>Triple Foam</li>
+
+            </ul>
+            <div class="card-footer border-top-0 bg-transparent">
+
+              <div class="button-div text-center"> <button class="button">JOIN NOW</button></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-xl-3 mt-5">
+          <div class="card pricing-card active">
+            <div class="card-header text-center font-weight-bold">
+              Ultimate Shine
+            </div>
+            <div class="card-body text-center border-bottom mb-4">
+              <h4><span class="sup">$</span>45<span class="sup">99</span></h4>
+              <span class="text-gray">Per month (include tax)</span>
+            </div>
+            <ul>
+              <li>Soft-cloth Wash</li>
+              <li>Spot-free RInse</li>
+              <li>Spot-free Thermal dry</li>
+              <li>Rain shield</li>
+              <li>Undercarriage Flush & Brake Dust Remover</li>
+              <li>Triple Foam</li>
+              <li>Tire Foam</li>
+              <li>Water-repellant</li>
+              <li class="d-none"></li>
+              <li class="d-none"></li>
+            </ul>
+            <div class="card-footer border-top-0 bg-transparent">
+
+              <div class="button-div text-center"> <button class="button">JOIN NOW</button></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-xl-3 mt-5">
+          <div class="card pricing-card">
+            <div class="card-header text-center font-weight-bold">
+              Ultimate Shine
+            </div>
+            <div class="card-body text-center border-bottom mb-4">
+              <h4><span class="sup">$</span>59<span class="sup">99</span></h4>
+              <span class="text-gray">Per month (include tax)</span>
+            </div>
+            <ul>
+              <li>Soft-cloth Wash</li>
+              <li>Spot-free RInse</li>
+              <li>Spot-free Thermal dry</li>
+              <li>Rain shield</li>
+              <li>Undercarriage Flush & Brake Dust Remover</li>
+              <li>Triple Foam</li>
+              <li>Tire Foam</li>
+              <li>Water-repellant</li>
+              <li>Carnauba hot wax</li>
+              <li>Vacuum & Wipe Console</li>
+            </ul>
+            <div class="card-footer border-top-0 bg-transparent">
+
+              <div class="button-div text-center"> <button class="button">JOIN NOW</button></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="customers-feedback" class="pt-5 pb-5 position-relative">
+    <div class="container">
+      <h2 class="text-center font-weight-bold">Customers Feedback</h2>
+      <div class="owl-carousel owl-theme container mt-5">
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+        <div class="card text-center pt-5 pb-5">
+          <p>
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis<br> nostrum exercitationem ullam corporis<br>
+              suscipit laboriosam, nisi ut aliquid<br> commodi, nisi ut aliquid commodi.<br>nisi ut
+              aliquid commodi.
+          </p>
+          <h6 class="font-weight-normal text-center"><span class="font-weight-bold">John Doe</span> - Web
+              Developer</h6>
+          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                  <i class="fas fa-star fa-sm"></i>
+              </li>
+          </ul>
+      </div>
+       
+    
+    </div>
+    </div>
+  </section>
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-12 col-sm-6 text-lg-left text-center col-lg-3">
+          <img src="assets/img/logo.png" alt=""><br><br><br>
+          <p>@ 2018 carwash template.</p>
+          <p>All Rights Reserved.</p>
+        </div>
+        <div class="col-12 col-sm-6 text-lg-left text-center col-lg-3 list-unstyled mt-5 mt-lg-0">
+          <h5 class="font-weight-bold mb-4">Useful Links</h5>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service & Pricing</a></li>
+          <li><a href="#">Unlimited Wash Club</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Pages</a></li>
+        </div>
+        <div class="col-12 col-sm-6 text-lg-left text-center col-lg-3 pt-5 list-unstyled">
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </div>
+        <div class="col-12 col-sm-6 text-lg-left  row col-lg-3 mt-lg-1 mt-5">
+          <div class="d-flex justify-space-between col-12 text-md-left">
+            <span class="fa-regular fa-square-phone"></span><p>  Call us now: 
+              <br><span class="font-weight-bold">1-800-123-4567</span></p>
+          </div>
+          <div class="d-flex justify-space-between col-12 text-md-left">
+            <span class="fa-regular fa-location"></span>
+             <p>
+            5604 Willow Crossing Ct, <br> Clifton, VA, 20124
+          </p></div>
+          <div class="d-flex justify-space-between col-12 text-md-left">
+            <span class="fa-regular fa-clock"></span><p>
+            Mon-Sat: 7:00am-6:00pm <br>
+            Sun: 8:00am-5:00pm
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/owl.carousel.min.js"></script>
+  <script src="assets/bootstrap/js/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>   $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        400:{
+            items:1
+        },
+        788:{
+            items:2
+        },
+        968:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})</script>
+</body>
+
+</html>

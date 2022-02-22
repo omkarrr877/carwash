@@ -1,0 +1,17 @@
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse.collapse.show ul.navbar-nav{
+        background-color: #0b4b89;
+        color: #f3f3f3 !important;
+        padding: 10px;
+    }
+
+    .navbar-collapse.collapse.show ul.navbar-nav li a{
+        color: #f3f3f3 !important;
+    }
+    .navbar-collapse.collapse.show .navbar-nav li:hover a{
+        background-color: #f3f3f3;
+        color: #0b4b89 !important;
+        padding: 30px;
+    }
+}

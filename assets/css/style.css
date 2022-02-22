@@ -1,0 +1,467 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700;800&family=Roboto:wght@400;700&display=swap'); */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-color: #00adef;
+    --secondary-color: #0b4b89;
+    --main-font: 'Raleway', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+}
+.main-btn
+{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 3px;
+}
+.default-btn
+{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 13px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 3px;
+}
+html
+{
+
+    overflow-x: hidden;
+}
+body
+{}
+header
+{
+    width: 100vw;
+}
+.header .navbar .nav-item .nav-link:hover
+{
+   color: var(--secondary-color);
+}
+
+.navbar-toggler
+{
+    color: #fff !important;
+    font-size: xx-large;
+}
+nav.topbar
+{
+    background-color: var(--secondary-color) !important;
+}
+nav.topbar .nav-link
+{
+    color: #ffffffc2 !important;
+}
+header .navbar-nav .nav-item .nav-link
+{
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.hero_section
+{
+
+    font-family: var(--main-font);
+    font-weight: 800;
+}
+
+.hero_section #carouselExampleControls .carousel-item img
+{
+    width: 100vw;
+
+    height: 70vh;
+}
+.hero_section #carouselExampleControls .carousel-inner
+{
+    position: relative;
+}
+.hero_section #carouselExampleControls .carousel-item .carousel-content
+{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    z-index: 1000;
+    opacity: 1000;
+}
+.hero_section #carouselExampleControls .carousel-item .carousel-content .bg-span
+{
+    width: 250px;
+    height: 10px;
+    border-right: 15px solid transparent;
+    border-top: 40px solid #ffe723;
+    border-left: 40px solid #ffe723;
+    color: #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.hero_section #carouselExampleControls .carousel-item .carousel-content .bg-span h5
+{
+    position: absolute;
+    bottom: -50%;
+    left: -10%;
+    line-height: normal;
+    font-weight: bold;
+    align-self: flex-start;
+}
+.hero_section #carouselExampleControls .carousel-item .carousel-content h2
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.carousel .carousel-control-prev-icon
+{
+    /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url('/assets/img/icons/chevron-back-outline.svg');
+}
+
+.carousel .carousel-control-next-icon
+{
+    /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url('/assets/img/icons/chevron-forward-outline.svg');
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon
+{
+    /* Use to adjust size of icons */
+    width: 3rem;
+    height: 3rem;
+}
+
+
+#services .row .card-column
+{
+    margin-top: 35px;
+}
+
+#services .row .card .card-overlay
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+#services .row .card .card-overlay:hover
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    transition: 0.4s;
+}
+#services .row .card .card-overlay .card-title
+{
+    color: #fff;
+}
+
+#services .row .card .card-overlay .card-overlay-bottom
+{
+    opacity: -550;
+    display: hidden;
+    visibility: hidden;
+}
+#services .row .card .card-overlay:hover .card-overlay-bottom
+{
+    background-color: var(--secondary-color);
+    visibility: visible;
+    opacity: 550;
+    display: block;
+    transition: 0.6s;
+}
+#help-section .container
+{
+    background-color: #4174a9;
+}
+#help-section .container p
+{
+    color: #ffffffc2;
+}
+
+.demo {
+   padding-top: 20px;
+   position: relative;
+   padding: 0;
+   margin-left: -1rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   background-color: #fff;
+  }
+  .accordion .card-header {
+    background: #fff;
+    color: #000;
+    padding: 5px;
+  }
+
+  .accordion .fa {  
+    padding: 0;
+    background: #fff;
+    color: #333;
+    border: 1px #e4e5e7 solid;
+    padding: 7px;
+    font-weight: bolder;
+    border-radius: 100%!important;
+    margin-right: 0.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /* .accordion .fa.fa-plus::after {
+    content: "\0003";
+    font-family: "FontAwesome";
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 900;
+} */
+  .accordion .card-body p{
+      margin-bottom: 0;
+      margin-left: 2.5rem;
+  }
+  .accordion button, .accordion button:hover, .accordion .collapsed{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .accordion button, .accordion button:hover, .accordion button:focus{
+    text-decoration: none;
+    color: rgb(7, 119, 163);
+    font-weight: bold;
+  }
+
+
+
+
+#pricing .plan-price h3
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    color: #606060;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.02)
+}
+
+#pricing .plan-price
+{
+    font-size: 36px;
+    font-weight: 300;
+    color: #606060;
+    text-align: center;
+    padding: 0 0 22px;
+    position: relative;
+}
+
+
+#pricing .plan-price .value
+{
+    font-weight: 600;
+    letter-spacing: -1px
+}
+
+#pricing .plan-currency
+{
+    font-size: 22px;
+    opacity: .7;
+    position: relative;
+    margin: 0 -5px 0 0;
+    top: -4px;
+    font-weight: 300;
+}
+
+#pricing .period
+{
+    display: block;
+    font-size: 16px;
+    margin: 2px 0 0;
+    opacity: .7;
+}
+
+#pricing .plan-features
+{
+    background: #fff;
+    border-top: none;
+    padding: 12px 0 0;
+}
+
+#pricing .plan-features ul li
+{
+    padding: 8px 0;
+    text-align: center;
+}
+
+
+
+#pricing .plan
+{
+    border: 1px solid #f6f6f6;
+
+}
+
+#pricing .button
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    border: 2px solid var(--primary-color);
+    background: #fff;
+}
+
+#pricing .button:hover
+{
+    color: #fff;
+    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+
+}
+
+#pricing .pricing-card
+{
+
+    border-radius: 0 !important;
+
+}
+#pricing .pricing-card.active .card-header
+{
+    background: #0b4b89;
+    color: #fff;
+}
+#pricing .pricing-card.active .button
+{
+    background: var(--primary-color);
+    color: #fff;
+}
+#pricing .pricing-card.active
+{
+    -webkit-box-shadow: 0 6px 26px -7px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0 6px 26px -7px rgba(0, 0, 0, 0.33);
+    box-shadow: 0 6px 26px -7px rgba(0, 0, 0, 0.33);
+    border-radius: 0 !important;
+
+}
+
+#pricing .pricing-card h4 span.sup
+{
+    vertical-align: text-top;
+    font-size: 25px;
+
+}
+
+#pricing .pricing-card h4
+{
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+#pricing .container .pricing-card
+{}
+#pricing .container .pricing-card ul
+{
+    margin-left: 2em;
+    height: 240px;
+    list-style: none; /* Remove default bullets */
+}
+
+#pricing ul li::before
+{
+    margin-top: 3px;
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(61, 178, 224); /* Change the color */
+    font-weight: bolder; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+#customers-feedback{
+    background-color: #eaebed;
+}
+
+
+
+#customers-feedback .owl-carousel:hover .owl-buttons {
+    display: block;
+    border:none;
+  }
+  #customers-feedback .owl-carousel{
+    position: relative;
+    top: 50%!important;
+  }
+  
+  
+  #customers-feedback .owl-theme .owl-controls .owl-buttons div {
+    background: transparent;
+    color: #869791;
+    font-size: 40px;
+    line-height: 300px;
+    margin: 0;
+    padding: 0 60px;
+    position: absolute;
+    top: 0;
+  }
+  #customers-feedback .owl-carousel .owl-nav span:hover{
+  color: #869791;
+  }
+  #customers-feedback .owl-carousel .owl-nav .owl-prev span{
+    position: absolute;
+    left: -5%;
+    top: 20%;
+   font-size: 5rem;
+   font-weight: 100;
+    color: #869791;
+  }
+  #customers-feedback .owl-carousel .owl-nav .owl-next span{
+    position: absolute;
+    right: -5%;
+    top: 20%;
+    font-weight: 100;
+   font-size: 5rem;
+    color: #869791;
+  }
+  
+  #customers-feedback .fa-quote-left{
+      position: absolute;
+      z-index: 10;
+      opacity: 0.5;
+      font-size: 65px;
+      color: #cbeffb;
+      font-weight: bolder;
+      left: 6%;
+      top: 5%;
+    }
+
+
+
+#footer{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+#footer .fa-regular{
+    font-size: 35px; margin-right: 10px; margin-top: 6px;
+}
+#footer a{
+    color: #ffffffc2 ;
+}
