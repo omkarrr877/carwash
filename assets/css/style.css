@@ -131,13 +131,13 @@ header .navbar-nav .nav-item .nav-link
 .carousel .carousel-control-prev-icon
 {
     /* change fill="currentColor" to %23fff to make it white  */
-    background-image: url('/assets/img/icons/chevron-back-outline.svg');
+    background-image: url('/assets/icons/chevron-back-outline.svg');
 }
 
 .carousel .carousel-control-next-icon
 {
     /* change fill="currentColor" to %23fff to make it white  */
-    background-image: url('/assets/img/icons/chevron-forward-outline.svg');
+    background-image: url('/assets/icons/chevron-forward-outline.svg');
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon
